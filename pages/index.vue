@@ -4,6 +4,7 @@
       <h1>Welcome to PrimeVue Landing</h1>
       <p>Your ultimate UI library with Vue and Nuxt 3.</p>
       <Button label="Get Started" icon="pi pi-check" class="get-started-btn" @click="onGetStarted" />
+      <Button label="Go to Banking Dashboard" class="p-button-secondary" @click="goToBanking" style="margin-left:1rem" />
     </header>
 
     <section class="features">
@@ -33,9 +34,16 @@
 <script setup>
 import Button from 'primevue/button'
 import FeatureCard from '~/components/FeatureCard.vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 function onGetStarted() {
   alert('Welcome aboard! Let’s build something awesome.')
+}
+
+function goToBanking() {
+  router.push('/banking')
 }
 </script>
 
