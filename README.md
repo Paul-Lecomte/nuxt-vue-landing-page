@@ -1,1 +1,1 @@
-just testing nuxt possibilities and features a
+just testing nuxt possibilities and features 
