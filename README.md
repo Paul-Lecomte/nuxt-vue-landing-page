@@ -1,1 +1,1 @@
-just testing nuxt asdsapossibilities and features a
+just testing nuxt bil2ities and features a
