@@ -1,1 +1,1 @@
-just testing nuxt bilities and features a
+just testing nuxt bilites and features a
